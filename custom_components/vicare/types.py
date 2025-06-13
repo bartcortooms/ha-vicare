@@ -6,9 +6,9 @@ from dataclasses import dataclass
 import enum
 from typing import Any
 
-from PyViCare.PyViCare import PyViCare
-from PyViCare.PyViCareDevice import Device as PyViCareDevice
-from PyViCare.PyViCareDeviceConfig import PyViCareDeviceConfig
+from PyViCare2.PyViCare import PyViCare
+from PyViCare2.PyViCareDevice import Device as PyViCareDevice
+from PyViCare2.PyViCareDeviceConfig import PyViCareDeviceConfig
 
 from homeassistant.components.climate import (
     PRESET_COMFORT,

@@ -6,9 +6,9 @@ from contextlib import suppress
 import logging
 import os
 
-from PyViCare.PyViCare import PyViCare
-from PyViCare.PyViCareDeviceConfig import PyViCareDeviceConfig
-from PyViCare.PyViCareUtils import (
+from PyViCare2.PyViCare import PyViCare
+from PyViCare2.PyViCareDeviceConfig import PyViCareDeviceConfig
+from PyViCare2.PyViCareUtils import (
     PyViCareInvalidConfigurationError,
     PyViCareInvalidCredentialsError,
 )

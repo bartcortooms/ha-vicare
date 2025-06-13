@@ -6,10 +6,10 @@ from contextlib import suppress
 import logging
 from typing import Any
 
-from PyViCare.PyViCareDevice import Device as PyViCareDevice
-from PyViCare.PyViCareDeviceConfig import PyViCareDeviceConfig
-from PyViCare.PyViCareHeatingDevice import HeatingCircuit as PyViCareHeatingCircuit
-from PyViCare.PyViCareUtils import (
+from PyViCare2.PyViCareDevice import Device as PyViCareDevice
+from PyViCare2.PyViCareDeviceConfig import PyViCareDeviceConfig
+from PyViCare2.PyViCareHeatingDevice import HeatingCircuit as PyViCareHeatingCircuit
+from PyViCare2.PyViCareUtils import (
     PyViCareInvalidDataError,
     PyViCareNotSupportedFeatureError,
     PyViCareRateLimitError,

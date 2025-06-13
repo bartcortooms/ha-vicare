@@ -1,8 +1,8 @@
 """Entities for the ViCare integration."""
 
-from PyViCare.PyViCareDevice import Device as PyViCareDevice
-from PyViCare.PyViCareDeviceConfig import PyViCareDeviceConfig
-from PyViCare.PyViCareHeatingDevice import (
+from PyViCare2.PyViCareDevice import Device as PyViCareDevice
+from PyViCare2.PyViCareDeviceConfig import PyViCareDeviceConfig
+from PyViCare2.PyViCareHeatingDevice import (
     HeatingDeviceWithComponent as PyViCareHeatingDeviceComponent,
 )
 

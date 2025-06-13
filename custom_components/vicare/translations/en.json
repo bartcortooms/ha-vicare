@@ -176,6 +176,9 @@
             "burner_starts": {
                 "name": "Burner starts"
             },
+            "circuit_target_temperature": {
+                "name": "Circuit Target Temperature"
+            },
             "collector_temperature": {
                 "name": "Solar collector temperature"
             },

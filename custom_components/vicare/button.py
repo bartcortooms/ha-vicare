@@ -6,9 +6,9 @@ from contextlib import suppress
 from dataclasses import dataclass
 import logging
 
-from PyViCare.PyViCareDevice import Device as PyViCareDevice
-from PyViCare.PyViCareDeviceConfig import PyViCareDeviceConfig
-from PyViCare.PyViCareUtils import (
+from PyViCare2.PyViCareDevice import Device as PyViCareDevice
+from PyViCare2.PyViCareDeviceConfig import PyViCareDeviceConfig
+from PyViCare2.PyViCareUtils import (
     PyViCareInvalidDataError,
     PyViCareNotSupportedFeatureError,
     PyViCareRateLimitError,
