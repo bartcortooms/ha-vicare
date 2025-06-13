@@ -12,6 +12,6 @@
   "iot_class": "cloud_polling",
   "loggers": ["PyViCare2"],
   "issue_tracker": "https://github.com/bartcortooms/ha-vicare/issues",
-  "requirements": ["PyViCare2@git+https://github.com/bartcortooms/PyViCare.git@feature/get-circuit-target-temperature"],
+  "requirements": ["PyViCare==2.44.0"],
   "version": "1.0.10"
 }
